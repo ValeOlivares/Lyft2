@@ -1,9 +1,11 @@
 body {
 	margin: 0 auto;
-    background-image: url(../images/DRIVER.jpg);
- 	background-size: cover;
-   
-  }
+}
+
+.login{
+  background-image: url(../images/DRIVER.jpg);
+  background-size: cover;
+}
 /* pantalla de inicio*/
  #splash { 
   position:absolute;
@@ -14,16 +16,26 @@ body {
   background: linear-gradient(70deg, #54005F, #CC0883);
 }
 
+.splash{
+  width: 20em;
+  padding-top: 15em;
+}
+
 .whiteLogo{
-	width: 10em;
+	width: 8em;
+  text-align: center;
 }
 
-.logbutton{
-	padding-top:100em;	
-	
+.lyftLyfe{
+  width: 5em;
+  padding-top: 5em;
+  align-content: center;
 }
 
-.log, .sign{
-	font-size: 20px;
-	padding:1em;
+.liftLogo{
+  width: 25em;
+}
+
+.logbutton {
+  padding: 10em 3em;
 }
