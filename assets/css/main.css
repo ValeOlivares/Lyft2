@@ -6,9 +6,24 @@ body {
   }
 /* pantalla de inicio*/
  #splash { 
-    position:absolute;
-    top:0;
-    left:0;
-    bottom:0;
-    width:100%;
-    background: linear-gradient(70deg, #54005F, #CC0883);
+  position:absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  width:100%;
+  background: linear-gradient(70deg, #54005F, #CC0883);
+}
+
+.whiteLogo{
+	width: 10em;
+}
+
+.logbutton{
+	padding-top:100em;	
+	
+}
+
+.log, .sign{
+	font-size: 20px;
+	padding:1em;
+}
